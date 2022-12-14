@@ -28,7 +28,7 @@ body {
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-  --transition:all .4s ease ;
+  --transition: all .4s ease;
 
   /* width for all device*/
   --container-width-lg: 75%;
@@ -72,15 +72,72 @@ section>h5 {
   color: var(--color-light);
 }
 
-section > h2 {
+section>h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 
 }
-.text-light{
+
+.text-light {
   color: var(--color-light);
 }
-a{
+
+a {
   color: var(--color-primary);
   transition: var(--transition);
+}
+
+a:hover {
+  color: var(color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(color-primary);
+  padding: .75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
+@media screen and (max-width:1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .section>h2 {
+    margin-top: 6rem;
+  }
+}
+
+/*====== MEDIA QUERIES (SAMLL DEVICE)====== */
+@media screen and (max-width:600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  .section>h2 {
+    margin-bottom: 2rem;
+  }
 }

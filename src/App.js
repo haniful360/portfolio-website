@@ -13,7 +13,6 @@ import Testimonial from './components/Testimonial/Testimonial';
 function App() {
   return (
     <div>
-      <h1>Hanifulislam.com</h1>
       <Header/>
       <Nav/>
       <About/>
