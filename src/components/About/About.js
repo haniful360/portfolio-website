@@ -32,7 +32,7 @@ const About = () => {
                         <article className='about_card'>
                             <a className='about_icon' href=""><BiAward></BiAward></a>
                             <h5>Experience</h5>
-                             <small>1+ Years Working</small>
+                            <small>1+ Years Working</small>
                         </article>
                         <article className='about_card'>
                             <a className='about_icon' href=""><IoMdCodeWorking /></a>
@@ -45,7 +45,12 @@ const About = () => {
                             <small>40+ Projects Completed</small>
                         </article>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quisquam fugit dignissimos consequatur quod soluta magnam suscipit. Voluptas, amet? Provident soluta facere, nobis corporis officiis, iusto, autem quod in sit facilis vero molestias voluptates harum unde nihil! Repudiandae, dolores velit?</p>
+                    <p><q>My name is Haniful Islam (Modhupurno)❤ . I am from Dinajpur, Bangladesh. A place of beauty and nature.Since my childhood, I love art and design. I always try to design stuff with my unique point of veiw. I also love to create things that can be usefull to other.
+                        
+                    I started coding since I was in high school. Coding is also an art for me. I love it and now I have the opportunity to design along with the coding. I find it realy interesting and I enjoyed the process a lot    
+                    </q></p>
+                    
+                    {/* <p>My vision is to make the world a better place.It is time for just to create more good stuff that helps the world to become a better place</p> */}
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

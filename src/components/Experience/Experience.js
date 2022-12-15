@@ -39,7 +39,7 @@ const Experience = () => {
             <article className="experience_details">
               <SiTailwindcss className='experience_details_icons'></SiTailwindcss>
               <div>
-                <h4>TAILWIND CSS</h4>
+                <h4>TAILWIND</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

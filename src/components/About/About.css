@@ -63,7 +63,7 @@
 }
 
 .about_content p{
-    margin: 2rem 0 2.6rem;
+    margin: 1.5rem 0 2.6rem;
     color: var(--color-light);
 }
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
@@ -97,8 +97,5 @@
     }
     .about_content p{
         margin: 1.5rem 0;
-    }
-    .about-section{
-        height: max-content;
     }
   }
