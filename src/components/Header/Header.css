@@ -2,7 +2,6 @@ header {
     height: 100vh;
     padding-top: 3rem;
     overflow: hidden;
-
 }
 
 .header_container {
@@ -65,11 +64,14 @@ header {
 }
 
 
-
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
 @media screen and (max-width: 1024px) {
     header {
         /* height: 68vh; */
+    }
+    .me {
+        padding: 0;
+        height: 24rem;
     }
 
 }
@@ -85,11 +87,11 @@ header {
     .scroll-down {
         display: none;
     }
-
     .me {
         padding: 0;
         background: none;
         width: 18rem;
         margin: 2rem;
     }
+    
 }
