@@ -28,7 +28,7 @@ const Portfolio = () => {
           <div className='portfolio_item_image'>
             <img src={IMG2} alt="Website-2" />
           </div>
-          <h3>This is a portfolio item title</h3> 
+          <h3>This is a portfolio item title2</h3> 
           <div className='portfolio_item_cta'>
           <a href="https://github.com/haniful360" className='btn ' target='_blank'>Code Link</a>
           <a href="#" className='btn btn-primary' target='_blank'>Live Site</a>
