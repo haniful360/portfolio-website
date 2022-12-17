@@ -10,7 +10,7 @@
 
 .top_header {
     display: flex;
-    width: 75%;
+    width: var(--container-width-lg);
     height: 80px;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ nav a.active{
     .top_header nav {
         position: fixed;
         right: 0;
-        top: 0;
+        top: -1rem;
         width: 50%;
         height: 100%;
         display: flex;
@@ -90,7 +90,7 @@ nav a.active{
 
     .top_header .nav_close_btn {
         position: absolute;
-        top:2rem;
-        right: 2rem;
+        top:3rem;
+        right: 3rem;
     }
 }

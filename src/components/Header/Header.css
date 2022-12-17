@@ -71,10 +71,10 @@ header {
     content: 'Haniful Islam';
     position: absolute; 
     top: 0;
-    /* left: 0px; */
+    /* left: 0; */
     text-align: center;
     color:var(--color-primary);
-    animation: typing 6s ease infinite;
+    animation: typing 4s ease infinite;
 }
 
 @keyframes typing{
