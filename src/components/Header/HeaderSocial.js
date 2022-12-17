@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsFacebook , BsGithub,BsLinkedin, BsInstagram,BsTwitter} from 'react-icons/bs';
-// import { BsFacebook } from 'react-icons/bs';
 function HeaderSocial() {
     return (
         <div className='header_socials'>

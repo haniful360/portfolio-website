@@ -63,12 +63,15 @@ header {
 }
 .my_name{
     color: var(--color-light);
+    position: relative;
 }
+
 .my_name::before {
     content: 'Haniful Islam';
     position: absolute; 
-     /* top: 0; */
-    left: 405px;
+    top: 0;
+    /* left: 0px; */
+    text-align: center;
     color:var(--color-primary);
     animation: typing 6s ease infinite;
 }
@@ -113,16 +116,7 @@ header {
     48%{
         content:'Haniful Islam|';
     }
-    /* 52%{
-        content:'Programming he|';
-    }
-    56%{
-        content:'Programming her|';
-    }
-    60%{
-        content:'Programming hero|';
-    } */
-
+    
     64%,
     83%{
         content:'Haniful Islam|';
@@ -163,18 +157,6 @@ header {
     95%{
         content:'H|';
     }
-    /* 96%{
-        content:'Pro|';
-    } */
-    /* 97%{
-        content:'Pr|';
-    }
-    98%{
-        content:'P|';
-    }
-    99%{
-        content:'|';
-    } */
     100%{
         content:'|';
     }
@@ -194,16 +176,11 @@ header {
         padding: 0;
         height: 24rem;
     }
-    .my_name::before{
-        left: 235px;
-    }
-
 }
 
 /*====== MEDIA QUERIES (SAMLL DEVICE)====== */
 @media screen and (max-width: 600px) {
     header {
-        /* padding: 1rem; */
         height: 100vh;
     }
 
@@ -217,9 +194,6 @@ header {
         background: none;
         width: 18rem;
         margin: 2rem;
-    }
-    .my_name::before{
-        left: 53px;
     }
 
 }
