@@ -16,7 +16,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 1.2rem;
-
 }
 
 /* ========HEADER SOCIALS========== */
@@ -62,6 +61,127 @@ header {
     font-size: .9rem;
 
 }
+.my_name{
+    color: var(--color-light);
+}
+.my_name::before {
+    content: 'Haniful Islam';
+    position: absolute; 
+     /* top: 0; */
+    left: 405px;
+    color:var(--color-primary);
+    animation: typing 6s ease infinite;
+}
+
+@keyframes typing{
+    0%{
+        content:'H|';
+    }
+    4%{
+        content:'Ha|';
+    }
+    8%{
+        content:'Han|';
+    }
+    12%{
+        content:'Hani|';
+    }
+    16%{
+        content:'Hanif|';
+    }
+    20%{
+        content:'Hanifu|';
+    }
+    24%{
+        content:'Haniful|';
+    }
+    28%{
+        content:'Haniful |';
+    }
+    32%{
+        content:'Haniful I|';
+    }
+    36%{
+        content:'Haniful Is|';
+    }
+    40%{
+        content:'Haniful Isl|';
+    }
+    44%{
+        content:'Haniful Isla |';
+    }
+    48%{
+        content:'Haniful Islam|';
+    }
+    /* 52%{
+        content:'Programming he|';
+    }
+    56%{
+        content:'Programming her|';
+    }
+    60%{
+        content:'Programming hero|';
+    } */
+
+    64%,
+    83%{
+        content:'Haniful Islam|';
+    }
+    84%{
+        content:'Haniful Isla|';
+    }
+    85%{
+        content:'Haniful Isl|';
+    }
+    86%{
+        content:'Haniful Is|';
+    }
+    87%{
+        content:'Haniful I|';
+    }
+    88%{
+        content:'Haniful |';
+    }
+    89%{
+        content:'Haniful|';
+    }
+    90%{
+        content:'Hanifu|';
+    }
+    91%{
+        content:'Hanif|';
+    }
+    92%{
+        content:'Hani|';
+    }
+    93%{
+        content:'Han|';
+    }
+    94%{
+        content:'Ha|';
+    }
+    95%{
+        content:'H|';
+    }
+    /* 96%{
+        content:'Pro|';
+    } */
+    /* 97%{
+        content:'Pr|';
+    }
+    98%{
+        content:'P|';
+    }
+    99%{
+        content:'|';
+    } */
+    100%{
+        content:'|';
+    }
+
+   
+}
+
 
 
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
@@ -69,6 +189,7 @@ header {
     header {
         /* height: 68vh; */
     }
+
     .me {
         padding: 0;
         height: 24rem;
@@ -87,11 +208,12 @@ header {
     .scroll-down {
         display: none;
     }
+
     .me {
         padding: 0;
         background: none;
         width: 18rem;
         margin: 2rem;
     }
-    
+
 }

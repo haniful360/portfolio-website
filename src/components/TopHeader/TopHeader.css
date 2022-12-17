@@ -1,0 +1,43 @@
+.to_header_container {
+    background: #151C48;
+    border-bottom: 1px solid var(--color-light)
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    padding: 1rem;
+
+}
+
+.menu li a {
+    font-weight: 500;
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.social_link {
+    display: flex;
+    gap: 1rem;
+}
+
+.social_link_icon {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}

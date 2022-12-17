@@ -9,12 +9,14 @@ import Nav from './components/Nav/Nav';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Testimonial from './components/Testimonial/Testimonial';
+import TopHeader from './components/TopHeader/TopHeader';
 
 function App() {
   return (
     <div>
+      <TopHeader></TopHeader>
       <Header/>
-      <Nav/>
+      {/* <Nav/> */}
       <About/>
       <Experience/> 
       {/* <Services/> */}
