@@ -194,6 +194,9 @@ header {
         padding: 0;
         height: 24rem;
     }
+    .my_name::before{
+        left: 235px;
+    }
 
 }
 
@@ -214,6 +217,9 @@ header {
         background: none;
         width: 18rem;
         margin: 2rem;
+    }
+    .my_name::before{
+        left: 53px;
     }
 
 }
