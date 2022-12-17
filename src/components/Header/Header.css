@@ -2,6 +2,7 @@ header {
     height: 100vh;
     padding-top: 3rem;
     overflow: hidden;
+    /* z-index: 2; */
 }
 
 .header_container {
@@ -160,8 +161,6 @@ header {
     100%{
         content:'|';
     }
-
-   
 }
 
 

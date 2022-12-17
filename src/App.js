@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import DaysIcode from './components/DaysIcode/DaysIcode';
 import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -17,6 +18,7 @@ function App() {
       <Experience/> 
       <Portfolio/>
       {/* <Testimonial/> */}
+      <DaysIcode></DaysIcode>
       <Contact/>
       <Footer/>
 

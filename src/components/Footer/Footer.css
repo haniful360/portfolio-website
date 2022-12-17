@@ -1,16 +1,14 @@
 .footer_container{
-    /* width: var(--container-width-lg); */
     border-top: 1px solid var(--color-light);
     background: var(--color-bg-variant);
 }
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 0;
     align-items: center;
     background: var(--color-bg-variant);
-    width: 75%;
-    margin: 0 auto;
+    padding: 1.5rem 4rem;
+    position: relative;
 }
 .footer_arrow{
     background: var(--color-bg);
@@ -20,3 +18,24 @@
 .footer_uparrow_icon{
     font-size: 1.5rem;
 }
+.footer_name{
+    color:var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*====== MEDIA QUERIES (SAMLL DEVICE)====== */
+@media screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+        gap: .5rem;
+        
+    }
+    .footer_uparrow_icon{
+        position: absolute;
+        right: 1.5rem;
+        bottom: 3rem;
+        background: var(--color-bg);
+    
+    }
+  
+  }

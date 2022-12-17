@@ -51,7 +51,7 @@ const About = () => {
                     </q></p>
 
                     {/* <p>My vision is to make the world a better place.It is time for just to create more good stuff that helps the world to become a better place</p> */}
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="https://github.com/haniful360" target='_blank' className='btn btn-primary'>Read More</a>
                 </div>
             </div>
         </section>

@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <section className='footer_container'>
       <div className='footer'>
-        <p>&copy;All rights Reserved by Haniful Islam 2022</p>
+        <p>Designed and Developed By <span className='footer_name'>H@niful Islam Modhu</span> </p>
+        <small>&copy; 2022 HIM❤</small>
         <div className='footer_arrow'>
           <a href="#"><AiOutlineArrowUp className='footer_uparrow_icon'></AiOutlineArrowUp></a>
         </div>
