@@ -19,7 +19,7 @@ function App() {
       <About/>
       <Experience/> 
       <Portfolio/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <DaysIcode></DaysIcode>
       <Contact/>
       <Footer/>
