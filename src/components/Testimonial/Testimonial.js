@@ -1,10 +1,20 @@
-import React from 'react'
-import './Testimonial.css';
+import { useState } from "react";
 
-const Testimonial = () => {
+export default function Testimonial() {
+    const [count, setCount] = useState(0);
+
+    const increment = () => {
+        for (let i = 0; i < 5; i++) {
+            setCount(count + 1);
+        }
+    };
+
     return (
-        <div>Testimonial</div>
-    )
+        <div>
+            <p>{count}</p>
+            <div>
+                <button onClick={increment}>Increment</button>
+            </div>
+        </div>
+    );
 }
-
-export default Testimonial

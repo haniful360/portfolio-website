@@ -7,7 +7,9 @@ import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Portfolio from './components/Portfolio/Portfolio';
+import Testimonial from './components/Testimonial/Testimonial';
 import TopHeader from './components/TopHeader/TopHeader';
+
 
 function App() {
   return (
@@ -17,11 +19,11 @@ function App() {
       <About/>
       <Experience/> 
       <Portfolio/>
-      {/* <Testimonial/> */}
+      <Testimonial/>
       <DaysIcode></DaysIcode>
       <Contact/>
       <Footer/>
-
+  
     </div>
   );
 }

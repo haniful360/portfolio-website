@@ -2,7 +2,6 @@ header {
     height: 100vh;
     padding-top: 3rem;
     overflow: hidden;
-    /* z-index: 2; */
 }
 
 .header_container {
@@ -25,33 +24,34 @@ header {
     flex-direction: column;
     align-items: center;
     gap: .8rem;
+    font-size: 1.2rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 8rem;
 
 }
 
 .header_socials::after {
     content: '';
     width: 2px;
-    height: 2rem;
+    height: 2.5rem;
     background: var(--color-primary);
 
 }
 
 /* =========me========= */
-.me {
+.me{
     background: #e0dfcd;
-    width: 22rem;
-    height: 30rem;
+    width: 24rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem 2.5rem 0rem 2.5rem;  
 
 }
+
 
 .scroll-down {
     position: absolute;
@@ -167,13 +167,10 @@ header {
 
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
 @media screen and (max-width: 1024px) {
-    header {
-        /* height: 68vh; */
-    }
-
+   
     .me {
-        padding: 0;
         height: 24rem;
+
     }
 }
 
@@ -187,7 +184,7 @@ header {
     .scroll-down {
         display: none;
     }
-
+    
     .me {
         padding: 0;
         background: none;

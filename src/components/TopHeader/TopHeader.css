@@ -48,6 +48,7 @@ nav a.active{
     padding: .3rem .4rem;
     border-radius: .3rem;
 }
+
 .social_link {
     display: flex;
     gap: 1rem;
@@ -70,17 +71,18 @@ nav a.active{
     .top_header nav {
         position: fixed;
         right: 0;
-        top: -1rem;
-        width: 50%;
+        top: 0;
+        width: 40%;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+         align-items: center; 
         flex-direction: column;
         background-color: var(--color-bg);
         transform: translateY(-100vh);
         transition: .5s;
         z-index: 1;
+        
 
     }
 

@@ -19,7 +19,7 @@
 
 .portfolio_item_image img {
     border-radius: 1rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 300px;
 }
 
@@ -29,10 +29,10 @@
 
 .portfolio_item_cta{
     display: flex;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
 
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
 @media screen and (max-width:1024px) {

@@ -4,3 +4,13 @@
     padding: 1.5rem;
     
 }
+/*====== MEDIA QUERIES (SAMLL DEVICE)====== */
+@media screen and (max-width:600px) {
+    .gitCommit_img{
+        width: 100%;
+        display: block;
+        padding: .8rem;
+        border-radius: .5rem;
+    }
+  
+  }
